@@ -27,11 +27,8 @@ module.exports = {
         type: 'asset/resource',
       },
     ],
-  }, devServer: {
+  },
+  devServer: {
     static: './dist',
-    port: 8010,
-  },
-  optimization: {
-    runtimeChunk: 'single',
-  },
+  }
 };
