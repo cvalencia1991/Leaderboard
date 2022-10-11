@@ -19,19 +19,16 @@ module.exports = {
       {
         test: /\.css$/i,
         use: ['style-loader', 'css-loader'],
-      },{
+      }, {
         test: /\.(png|svg|jpg|jpeg|gif)$/i,
         type: 'asset/resource',
-      },{
+      }, {
         test: /\.(woff|woff2|eot|ttf|otf)$/i,
         type: 'asset/resource',
       },
     ],
-  }, devServer: {
-    static: './dist',
-    port: 8010,
   },
-  optimization: {
-    runtimeChunk: 'single',
+  devServer: {
+    static: './dist',
   },
 };
