@@ -1,17 +1,18 @@
 import './style.css';
 import Scorelist from './modules/scorelist.js';
 import refreshpage from './modules/refresh.js';
-import getid from './modules/getid.js';
+
+/* import getid from './modules/getid.js'; */
 
 const submit = document.getElementById('submit');
 const refresh = document.getElementById('refresh');
 
 refresh.addEventListener('click', refreshpage);
 
-const a = getid();
+/* const a = getid();
 a.then((result) => {
   localStorage.setItem('gameId', result.result.split(' ')[3]);
-});
+}); */
 
 submit.addEventListener('click', (e) => {
   e.preventDefault();
