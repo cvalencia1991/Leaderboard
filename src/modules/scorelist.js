@@ -1,19 +1,14 @@
-/* eslint-disable class-methods-use-this */
 export default class Scorelist {
   constructor(name, score) {
     this.name = name;
     this.score = score;
   }
 
-  resetform() {
-    document.getElementById('form').reset();
-  }
-
-  addscorelist(name, score) {
+  addscorelist() {
     const scoreslistul = document.getElementById('scoreslist');
     const element = document.createElement('div');
-    element.innerHTML = `<li>${name} : ${score}</li>`;
+    element.innerHTML = `<li>${this.name} : ${this.score}</li>`;
     scoreslistul.appendChild(element);
-    this.resetform();
+    document.getElementById('form').reset();
   }
 }
