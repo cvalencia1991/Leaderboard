@@ -1,6 +1,8 @@
+import Scorelist from './scorelist.js';
+
 export default async function refreshpage() {
   const response = await fetch(
-    'https://us-central1-js-capstone-backend.cloudfunctions.net/api/games/3Gp8KLZKuYejD2oYH5ly/scores',
+    'https://us-central1-js-capstone-backend.cloudfunctions.net/api/games/vr0F3gIgcu44WrsSv7t4/scores',
     {
       method: 'GET',
       headers: {
@@ -9,11 +11,8 @@ export default async function refreshpage() {
     },
   );
   const data = await response.json();
-  const scoreslistul = document.getElementById('scoreslist');
   data.result.forEach((score) => {
-    const element = document.createElement('div');
-    element.innerHTML = `<li>${score.user} : ${score.score}</li>`;
-    scoreslistul.appendChild(element);
-    document.getElementById('form').reset();
+    const scorelist = new Scorelist(score.user, score.score);
+    scorelist.addscorelist();
   });
 }
