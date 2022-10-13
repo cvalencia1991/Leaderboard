@@ -3,7 +3,7 @@ In this project, I create the setup for the project that is leaderboard
 
 ## Live Demo
 
-[Live Demo Link][https://cvalencia1991.github.io/Leaderboard/]
+[See Live Demo Link](https://cvalencia1991.github.io/Leaderboard/)
 
 
 ## Getting Started
