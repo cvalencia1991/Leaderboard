@@ -1,5 +1,5 @@
 # LEADERDBOARD
-In this project, I create the setup for the project that is leaderboard
+As part of this project, I created a leaderboard implemented with APIS that sends information and saves it to a list
 
 ## Live Demo
 
