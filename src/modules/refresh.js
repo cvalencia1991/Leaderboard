@@ -11,6 +11,8 @@ export default async function refreshpage() {
     },
   );
   const data = await response.json();
+  const scoreslistul = document.getElementById('scoreslist');
+  scoreslistul.innerHTML = '';
   data.result.forEach((score) => {
     const scorelist = new Scorelist(score.user, score.score);
     scorelist.addscorelist();
