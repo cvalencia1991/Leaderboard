@@ -1,5 +1,5 @@
 # LEADERDBOARD
-As part of this project, I created a leaderboard implemented with APIS that sends information and saves it to a list
+As part of this project, I created a leaderboard implemented with APIS that sends information and saves it to a list of scores
 
 ## Live Demo
 
@@ -11,7 +11,7 @@ As part of this project, I created a leaderboard implemented with APIS that send
 if you want this project, follow the next intruccions:
 To get a local copy up and running follow these simple example steps.
 
-- install the next npm items to run it 
+install the next npm items to run i:
 -  `npm install`
 -  `npm install webpack webpack-cli --save-dev`
 - run  `npm run start`
@@ -22,7 +22,6 @@ To get a local copy up and running follow these simple example steps.
 - HTML
 - CSS
 - JS
-
 
 
 👤 **Cesar Alberto Valencia Aguilar**
