@@ -1,6 +1,7 @@
 import './style.css';
 import Scorelist from './modules/scorelist.js';
-import { refreshPage, getInfo } from './modules/endpoints.js';
+import refreshPage from './modules/refreshPage.js';
+import getInfo from './modules/getinfo.js';
 
 const submit = document.getElementById('submit');
 const refresh = document.getElementById('refresh');
