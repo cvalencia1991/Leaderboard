@@ -3,7 +3,7 @@ As part of this project, I created a leaderboard implemented with APIS that send
 
 ## Live Demo
 
-[See Live Demo Link](https://cvalencia1991.github.io/Leaderboard/)
+[See Live Demo Link](https://leaderboardscore.netlify.app/)
 
 
 ## Getting Started
