@@ -1,4 +1,4 @@
-export default class Scorelist {
+class Scorelist {
   constructor(name, score) {
     this.name = name;
     this.score = score;
@@ -14,3 +14,5 @@ export default class Scorelist {
     document.getElementById('form').reset();
   }
 }
+
+export default Scorelist;

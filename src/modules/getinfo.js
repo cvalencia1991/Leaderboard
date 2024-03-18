@@ -11,8 +11,12 @@ const getInfo = async (name, scoreplayer) => {
       'Content-type': 'application/json; charset=UTF-8',
     },
   });
-  const data = await response.json();
-  return data;
+  try {
+    const data = await response.json();
+    return data;
+  } catch (e) {
+    throw new Error(e.message);
+  }
 };
 
 export default getInfo;
