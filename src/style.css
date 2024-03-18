@@ -3,13 +3,15 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
+  font-family: cursive;
+  font-size: larger;
+  height: 100vh;
 }
 
 #scoreplayer {
   width: 98%;
 }
 
-body,
 button,
 input {
   font-family: cursive;
@@ -23,8 +25,8 @@ button:hover {
 form {
   display: flex;
   flex-direction: column;
-  align-items: flex-end;
-  gap: 10px;
+  align-items: center;
+  gap: 1rem;
   margin-bottom: 1em;
 }
 
@@ -41,8 +43,8 @@ ul {
   display: flex;
   flex-direction: column;
   align-items: center;
-  font-size: 0.911789em;
-  margin-bottom: 1em;
+  font-size: 1em;
+  width: 100%;
 }
 
 .constructor {
@@ -51,6 +53,7 @@ ul {
   align-items: center;
   align-items: flex-start;
   flex-direction: column-reverse;
+  gap: 2em;
 }
 
 .stylescores {
@@ -69,14 +72,14 @@ ul {
   padding: 0;
 }
 
+.Recentscores {
+  width: 100%;
+}
+
 .listscores:nth-child(even) { background: #ccc; }
 .listscores:nth-child(odd) { background: #fff; }
 
 @media screen and (min-width: 768px) {
-  body {
-    display: inline;
-  }
-
   .constructor {
     justify-content: space-evenly;
     align-items: flex-start;
