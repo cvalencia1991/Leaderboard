@@ -1,5 +1,5 @@
-# LEADERDBOARD
-As part of this project, I created a leaderboard implemented with APIS that sends information and saves it to a list of scores
+# LEADER BOARD
+As part of this project, I created a leader board implemented with A.P.I.S(Application programming interface) that sends information and saves it to a list of scores
 
 ## Live Demo
 
@@ -8,28 +8,28 @@ As part of this project, I created a leaderboard implemented with APIS that send
 
 ## Getting Started
 
-if you want this project, follow the next intruccions:
+If you want this project, follow the next instructions:
+
 To get a local copy up and running follow these simple example steps.
 
-install the next npm items to run i:
--  `npm install`
--  `npm install webpack webpack-cli --save-dev`
-- run  `npm run start`
-- enjoy :smile:
+Install the next npm items with node modules to run:
+```
+- npm install
+- npm run start
+```
 
 ## Built With
 
 - HTML
 - CSS
-- JS
+- JavaScript
 
 
 👤 **Cesar Alberto Valencia Aguilar**
 
-- GitHub: [https://github.com/cvalencia1991](https://github.com/cvalencia1991)
-- Twitter: [https://twitter.com/cvalenciaguilar](@cvalenciaguilar)
-- LinkedIn: [https://www.linkedin.com/in/cvalenciaguilar/](www.linkedin.com/in/cvalenciaguilar)
-
+- GitHub: [@githubhandle](https://github.com/cvalencia1991)
+- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
+- LinkedIn: [LinkedIn](https://www.linkedin.com/in/cesar-valencia-aguilar/)
 
 ## 🤝 Contributing
 
@@ -40,8 +40,3 @@ Feel free to check the [issues page](https://github.com/cvalencia1991/Leaderboar
 ## Show your support
 
 Give a ⭐️ if you like this project!
-
-## Acknowledgments
-
-- Inspiration.....
-- etc....
